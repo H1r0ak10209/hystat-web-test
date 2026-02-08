@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プロダクト一覧 - HyStat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo"><img src="logo.png" alt="HyStat" class="nav-logo-img"><span class="nav-logo-text">Hy<span class="nav-logo-bold">Stat</span></span></a>
+      <button class="nav-toggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html#home">ホーム</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="products.html">プロダクト一覧</a></li>
+        <li><a href="index.html#contact">問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section products-page">
+      <div class="container">
+        <h1 class="section-title">プロダクト一覧</h1>
+        <div class="products-grid">
+          <a href="product-analytics.html" class="product-card-link">
+            <article class="product-card">
+              <div class="product-image">Product 1</div>
+              <div class="product-info">
+                <h3>HyStat Analytics</h3>
+                <p>リアルタイムデータ分析プラットフォーム。大規模データの可視化と統計分析を直感的に実行。</p>
+                <div class="product-tags">
+                  <span>分析</span>
+                  <span>可視化</span>
+                  <span>リアルタイム</span>
+                </div>
+              </div>
+            </article>
+          </a>
+          <a href="product-predict.html" class="product-card-link">
+            <article class="product-card">
+              <div class="product-image">Product 2</div>
+              <div class="product-info">
+                <h3>HyStat Predict</h3>
+                <p>機械学習ベースの予測モデリングツール。ノーコードで高精度な予測を実現。</p>
+                <div class="product-tags">
+                  <span>機械学習</span>
+                  <span>予測</span>
+                  <span>ノーコード</span>
+                </div>
+              </div>
+            </article>
+          </a>
+          <a href="product-report.html" class="product-card-link">
+            <article class="product-card">
+              <div class="product-image">Product 3</div>
+              <div class="product-info">
+                <h3>HyStat Report</h3>
+                <p>自動レポート生成ツール。分析結果をわかりやすいレポートに自動変換。</p>
+                <div class="product-tags">
+                  <span>レポート</span>
+                  <span>自動化</span>
+                  <span>共有</span>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 HyStat Inc. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
