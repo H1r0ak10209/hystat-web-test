@@ -1,4 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Page transition - fade out on link click
+  var links = document.querySelectorAll('a[href]:not([href^="#"]):not([href^="mailto"]):not([href^="tel"])');
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var href = this.getAttribute('href');
+      if (href && !href.startsWith('http') && !this.getAttribute('target')) {
+        e.preventDefault();
+        document.body.style.opacity = '0';
+        document.body.style.transition = 'opacity 0.3s ease-out';
+        setTimeout(function() {
+          window.location.href = href;
+        }, 300);
+      }
+    });
+  });
+
   // Mobile menu toggle
   var toggle = document.querySelector(".nav-toggle");
   var menu = document.querySelector(".nav-menu");
