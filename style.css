@@ -283,8 +283,8 @@ body {
   justify-content: center;
   text-align: center;
   min-height: 100vh;
-  padding: 2rem 1.5rem;
-  background: #000;
+  padding: 60px;
+  background: #fff;
   overflow: hidden;
 }
 
@@ -302,29 +302,30 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 1.5rem;
+  gap: 0;
+  padding-top: 180px;
 }
 
 .hero-tagline {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #111;
   letter-spacing: 0.15em;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  margin-bottom: 0.3rem;
 }
 
 .hero-logo {
-  width: 280px;
+  width: 400px;
   height: auto;
+  margin: 0.3rem 0;
 }
 
 .hero-company {
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.2rem;
+  font-size: 4.8rem;
   font-weight: 500;
-  color: #fff;
+  color: #111;
   letter-spacing: 0.1em;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 .hero-simple .hero-tagline,
@@ -339,10 +340,12 @@ body {
 
 .hero-slideshow {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 180px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  width: auto;
+  height: auto;
 }
 
 .slide {
@@ -363,11 +366,11 @@ body {
 
 .hero-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.4);
+  top: 180px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .hero-content {
