@@ -27,6 +27,47 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Desktop dropdown with delay
+  var navDropdowns = document.querySelectorAll(".nav-dropdown");
+  var dropdownMenus = document.querySelectorAll(".dropdown-menu");
+  var closeTimeout = null;
+
+  navDropdowns.forEach(function (dropdown) {
+    var dropdownMenu = dropdown.querySelector(".dropdown-menu");
+
+    dropdown.addEventListener("mouseenter", function () {
+      if (window.innerWidth > 768) {
+        clearTimeout(closeTimeout);
+        dropdown.classList.add("active");
+      }
+    });
+
+    dropdown.addEventListener("mouseleave", function () {
+      if (window.innerWidth > 768) {
+        closeTimeout = setTimeout(function () {
+          dropdown.classList.remove("active");
+        }, 150);
+      }
+    });
+
+    if (dropdownMenu) {
+      dropdownMenu.addEventListener("mouseenter", function () {
+        if (window.innerWidth > 768) {
+          clearTimeout(closeTimeout);
+          dropdown.classList.add("active");
+        }
+      });
+
+      dropdownMenu.addEventListener("mouseleave", function () {
+        if (window.innerWidth > 768) {
+          closeTimeout = setTimeout(function () {
+            dropdown.classList.remove("active");
+          }, 150);
+        }
+      });
+    }
+  });
+
   // Contact form handling
   var form = document.querySelector(".contact-form");
   if (form) {

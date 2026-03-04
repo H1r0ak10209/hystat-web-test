@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お問い合わせ - HyStat</title>
+  <title>Contact - HyStat</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -12,30 +12,30 @@
 <body>
   <header class="header">
     <nav class="nav">
-      <a href="index.html" class="nav-logo"><img src="HyStat.png" alt="HyStat" class="nav-logo-img"><span class="nav-logo-text">Hy<span class="nav-logo-bold">Stat</span></span></a>
-      <button class="nav-toggle" aria-label="メニューを開く">
+      <a href="index-en.html" class="nav-logo"><img src="HyStat.png" alt="HyStat" class="nav-logo-img"><span class="nav-logo-text">Hy<span class="nav-logo-bold">Stat</span></span></a>
+      <button class="nav-toggle" aria-label="Open menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <ul class="nav-menu">
         <li class="nav-dropdown">
-          <a href="#">私たちについて</a>
+          <a href="#">About Us</a>
           <ul class="dropdown-menu">
-            <li><a href="mission.html">ミッション・ビジョン・バリュー</a></li>
-            <li><a href="company.html">会社概要</a></li>
-            <li><a href="team.html">経営者紹介</a></li>
+            <li><a href="mission-en.html">Mission / Vision / Values</a></li>
+            <li><a href="company-en.html">Company</a></li>
+            <li><a href="team-en.html">Leadership</a></li>
           </ul>
         </li>
-        <li><a href="products.html">事業内容</a></li>
-        <li><a href="news.html">お知らせ</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
+        <li><a href="products-en.html">Services</a></li>
+        <li><a href="news-en.html">News</a></li>
+        <li><a href="contact-en.html">Contact</a></li>
       </ul>
       <div class="lang-switcher">
         <span class="lang-label">LANGUAGE:</span>
-        <a href="contact.html" class="lang-active">JP</a>
+        <a href="contact.html">JP</a>
         <span class="lang-divider">/</span>
-        <a href="contact-en.html">EN</a>
+        <a href="contact-en.html" class="lang-active">EN</a>
       </div>
     </nav>
   </header>
@@ -43,29 +43,29 @@
   <main>
     <section class="section company-page">
       <div class="container">
-        <h1 class="section-title">お問い合わせ</h1>
+        <h1 class="section-title">Contact</h1>
         <form class="contact-form" action="#" method="post">
           <div class="form-group">
-            <label for="name">お名前</label>
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
           </div>
           <div class="form-group">
-            <label for="email">メールアドレス</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
           </div>
           <div class="form-group">
-            <label for="company">会社名</label>
+            <label for="company">Company</label>
             <input type="text" id="company" name="company">
           </div>
           <div class="form-group">
-            <label for="subject">件名</label>
+            <label for="subject">Subject</label>
             <input type="text" id="subject" name="subject" required>
           </div>
           <div class="form-group">
-            <label for="message">お問い合わせ内容</label>
+            <label for="message">Message</label>
             <textarea id="message" name="message" rows="6" required></textarea>
           </div>
-          <button type="submit" class="btn">送信する</button>
+          <button type="submit" class="btn">Submit</button>
         </form>
       </div>
     </section>
