@@ -1086,3 +1086,22 @@ body {
 .dark-theme .hero-company {
   color: #fff;
 }
+
+.coming-soon {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.coming-soon-label {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+
+.coming-soon-text {
+  font-size: 1rem;
+  color: var(--color-text-light);
+  line-height: 1.8;
+}
