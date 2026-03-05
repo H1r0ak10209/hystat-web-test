@@ -81,6 +81,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  margin-left: 1rem;
 }
 
 .nav-logo-img {
