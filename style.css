@@ -124,6 +124,7 @@ body {
   list-style: none;
   gap: 2.5rem;
   justify-content: flex-start;
+  margin-left: 1rem;
 }
 
 .nav-menu > li > a {
@@ -341,6 +342,28 @@ body {
 
 .hero-simple .hero-company {
   color: #555;
+}
+
+.hero-menu-links {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.hero-menu-link {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #333;
+  transition: opacity 0.2s;
+}
+
+.hero-menu-link:hover {
+  opacity: 0.6;
 }
 
 .hero-slideshow {
