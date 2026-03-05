@@ -84,7 +84,7 @@ body {
 }
 
 .nav-logo-img {
-  height: 64px;
+  height: 80px;
   width: auto;
 }
 
@@ -307,11 +307,12 @@ body {
 }
 
 .hero-tagline {
-  font-size: 4rem;
+  font-size: 2.7rem;
   font-weight: 500;
   color: #111;
   letter-spacing: 0.2em;
   margin: 0;
+  margin-bottom: -10px;
   line-height: 1.2;
 }
 
