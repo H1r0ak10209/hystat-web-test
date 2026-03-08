@@ -1012,6 +1012,45 @@ body {
   }
 }
 
+/* Breadcrumb */
+.breadcrumb {
+  padding: 0.5rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumb ol {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  list-style: none;
+  font-size: 0.85rem;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-text-light);
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: "›";
+}
+
+.breadcrumb a {
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+  color: var(--color-primary);
+}
+
+.breadcrumb li[aria-current="page"] {
+  color: var(--color-text);
+}
+
 /* Under Construction */
 .under-construction {
   text-align: center;
