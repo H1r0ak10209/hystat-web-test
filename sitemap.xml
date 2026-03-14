@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- トップページ -->
+  <url>
+    <loc>https://hystat.co.jp/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/en/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/en/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 会社概要 -->
+  <url>
+    <loc>https://hystat.co.jp/company/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/company/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/company/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/company/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/company/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/company/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ミッション・ビジョン・バリュー -->
+  <url>
+    <loc>https://hystat.co.jp/policy/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/policy/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/policy/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/policy/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- チーム -->
+  <url>
+    <loc>https://hystat.co.jp/team/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/team/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/team/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/team/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/team/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/team/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- プロダクト -->
+  <url>
+    <loc>https://hystat.co.jp/products/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/products/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/products/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/products/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/products/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/products/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ニュース -->
+  <url>
+    <loc>https://hystat.co.jp/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/news/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/news/en/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/news/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/news/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/news/en/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- お問い合わせ -->
+  <url>
+    <loc>https://hystat.co.jp/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/contact/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/contact/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/contact/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- プライバシーポリシー -->
+  <url>
+    <loc>https://hystat.co.jp/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/privacy/en/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://hystat.co.jp/privacy/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hystat.co.jp/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hystat.co.jp/privacy/en/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
