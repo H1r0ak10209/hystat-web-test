@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - ページが見つかりません | HyStat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/images/Logo/logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/Logo/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/Logo/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/Logo/favicon/apple-touch-icon.png">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-code {
+      font-size: 8rem;
+      font-weight: 700;
+      line-height: 1;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+    }
+    .error-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+    .error-text {
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 2.5rem;
+      font-size: 1rem;
+    }
+    .error-btn {
+      display: inline-block;
+      padding: 0.875rem 2.5rem;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 700;
+      transition: opacity 0.2s;
+    }
+    .error-btn:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body class="dark-theme">
+  <div class="error-page">
+    <div>
+      <div class="error-code">404</div>
+      <h1 class="error-title">ページが見つかりません</h1>
+      <p class="error-text">お探しのページは移動または削除された可能性があります。</p>
+      <a href="/" class="error-btn">トップページへ戻る</a>
+    </div>
+  </div>
+</body>
+</html>
